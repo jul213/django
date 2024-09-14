@@ -1,0 +1,3 @@
+//delegacion de rutas
+
+path("hola/", include("nommbre de la app o proyecto que quieras tener sus urls")),
