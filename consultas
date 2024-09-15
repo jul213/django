@@ -1,0 +1,8 @@
+doctor
+
+doc = doctor.objects.all() // con esto tienes todos los objectos del doctor pudiendo acceder a los diferentes campos de la misma
+
+doc = doctor.objects.get(id=1) // obtener el primer elemento
+
+doc = doctor.objects.filter(name="juan") // filtrar por condicion especifica
+
