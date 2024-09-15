@@ -3,4 +3,4 @@ en la base de datos para  rellenar datos y poder utilizarlos utilizmos django_se
 
 // si da algun error
 
-pip install psycopg2-binary
+pip install psycopg2-binary en el venv
