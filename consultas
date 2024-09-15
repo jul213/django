@@ -6,3 +6,5 @@ doc = doctor.objects.get(id=1) // obtener el primer elemento
 
 doc = doctor.objects.filter(name="juan") // filtrar por condicion especifica
 
+doc = doctor.objects.all()[:10] // obtener los primeros 10 elementos
+
