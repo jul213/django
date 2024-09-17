@@ -12,6 +12,6 @@ doc = doctor.objects.all().order_by("edad") // ordenar por edad
 
 doc = doctor.objects.filter(id__lte=15) //obtner todos los elementos cuyo id sea menor que 15
 
-doc = doctor.objects.filter(name__contains="ju")  obtener los doctores que contienen en su nombre la palabra ju
+doc = doctor.objects.filter(name__contains="ju") // obtener los doctores que contienen en su nombre la palabra ju
 
 utilizar pipeline {{para filtros utilizar length upper entre otros}}
