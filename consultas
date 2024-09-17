@@ -10,4 +10,4 @@ doc = doctor.objects.all()[:10] // obtener los primeros 10 elementos
 
 doc = doctor.objects.all().order_by("edad")
 
-doc = doctor.objects.fi
+doc = doctor.objects.filter(id__lte=15)
