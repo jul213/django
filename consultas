@@ -10,4 +10,4 @@ doc = doctor.objects.all()[:10] // obtener los primeros 10 elementos
 
 doc = doctor.objects.all().order_by("edad") // ordenar por edad
 
-doc = doctor.objects.filter(id__lte=15)
+doc = doctor.objects.filter(id__lte=15) //obtner todos los elementos cuyo id sea menor que 15
