@@ -10,6 +10,8 @@ doc = doctor.objects.all()[:10] // obtener los primeros 10 elementos
 
 doc = doctor.objects.all().order_by("edad") // ordenar por edad
 
+doc = doctor.objects.all()[5:10] // obtener 5 elementos saltando los primeros 5
+
 doc = doctor.objects.filter(id__lte=15) //obtner todos los elementos cuyo id sea menor que 15
 
 doc = doctor.objects.filter(name__contains="ju") // obtener los doctores que contienen en su nombre la palabra ju
