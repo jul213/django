@@ -8,3 +8,6 @@ doc = doctor.objects.filter(name="juan") // filtrar por condicion especifica
 
 doc = doctor.objects.all()[:10] // obtener los primeros 10 elementos
 
+doc = doctor.objects.all().order_by("edad")
+
+doc = doctor.objects.fi
