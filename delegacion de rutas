@@ -1,7 +1,7 @@
 //delegacion de rutas
 
 
-///urls.py en el que quieres tener las rutas de otro lugar
+///urls.py en el que quieres tener las rutas de otro lugar de otro proyecto o app
 path("hola/", include("nommbre de la app o proyecto que quieras tener sus urls.urls")),
 
 //el .urls es oligatoria al final al igual que el include
