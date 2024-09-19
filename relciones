@@ -21,4 +21,4 @@ class estudiante(models.Model):
 
 
 
-// rn las views .py cuando tienes varios objetos vinculados por una llave foranea no es rep.article por que django no sabbria diferenciarlos es por eso que se pne rep.article_set 
+// en las views .py cuando tienes varios objetos vinculados por una llave foranea no es rep.article por que django no sabbria diferenciarlos es por eso que se pne rep.article_set 
