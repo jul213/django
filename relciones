@@ -11,7 +11,7 @@ class colegio(models.Model):
     
 
 class estudiante(models.Model):
-    col = models.oneToOneField(colegio, on_delete="models.CASCADE")
+    col = models.oneToOneField(colegio, on_delete="models.CASCADE", primary_key=True)
     name = models.CharField(max_length=200, null=False)
     age = models.IntegerField( null=False)
     tel = models.FloatField(max_length=10, null=True)
