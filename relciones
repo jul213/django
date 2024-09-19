@@ -17,5 +17,5 @@ class estudiante(models.Model):
     tel = models.FloatField(max_length=10, null=True)
 
     def __str__(self):
-        return self.name
+        return self.colegio.name
 
