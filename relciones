@@ -20,5 +20,16 @@ class estudiante(models.Model):
         return self.colegio.name
 
 
+class practicante(models.Model): //llave foranea
+    cole = models.ForeignKey(colegio, on_delete="models.CASCADE")
+    name = models.CharField(max_length=200, null=False)
+    age = models.IntegerField( null=False)
+    tel = models.FloatField(max_length=10, null=True)
+
+    def __str__(self):
+        return self.colegio.name
+
+
+
 
 // en las views .py cuando tienes varios objetos vinculados por una llave foranea no es rep.article por que django no sabbria diferenciarlos es por eso que se pne rep.article_set 
