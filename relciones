@@ -29,7 +29,7 @@ class practicante(models.Model): //llave foranea
     def __str__(self):
         return self.colegio.name
 
-class coche(models.Model): //llave foranea
+class coche(models.Model): //relacion de muchos a muchos
     practica = models.ManyToManyField(practicante)
     name = models.CharField(max_length=200, null=False)
     age = models.IntegerField( null=False)
