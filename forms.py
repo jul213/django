@@ -8,4 +8,4 @@ class CommentForm(forms.Form):
     url = forms.URLField(label="tu sitio web", required=False)
     correo = forms.EmailField(label="coloca tu correo electronico")
     
-este seria un ejemplo de formularios
+este seria un ejemplo de formularios de una mejor forma
