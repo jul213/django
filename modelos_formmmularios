@@ -1,0 +1,10 @@
+from django.forms import ModelForm
+from .models import  employee
+
+class employeeForm(ModelForm):
+    class Meta: 
+        model = employee
+        fields = ["name","tel","email"]
+        #exluir datos = ("name")
+        #atajo fields = "__all__"
+    
