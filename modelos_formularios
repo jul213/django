@@ -8,4 +8,4 @@ class employeeForm(ModelForm):
         #exluir datos = ("name")
         #atajo fields = "__all__"
 
-#esto es en el forms.py al hacer formularios de una forma mejor
+#esto es en el forms.py al hacer formularios de una forma mejor que la normal
