@@ -2,4 +2,4 @@ para hacer el GET es lo mismo que el post pero en action en vez de post poner un
 
 en las vistas del proyecto en lo general es mucho mejro hacer una instancia es decir 
 
-form = productForm(instance = product) esto seria lo correcto  
+form = productForm(instance = product) esto seria lo correcto para actualizar datos por que si no creariamos uno nuevo   
