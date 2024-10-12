@@ -1,4 +1,5 @@
 from django.contrib import messages // importamos
 
+views.py
 def message(request):
   messages.success(request, "soy un mensaje exitoso") // hay varios tipos uno de ellos es success
