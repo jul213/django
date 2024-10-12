@@ -1,0 +1,4 @@
+from django.contrib import messages 
+
+def message(request):
+  messages.success(request, "soy un mensaje exitoso")
